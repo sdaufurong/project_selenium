@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="我爱出行管理中心基本功能V1.0"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="26.264">
+  <properties />
+            <testcase name="testInformationManage" time="14.458" classname="com.w2cx.selenium.testCase.testLogin">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.w2cx.selenium.page.InformationManagePage.getAddBtnElement(InformationManagePage.java:56)
+  com.w2cx.selenium.handle.InformationManageHandle.clickAddBtn(InformationManageHandle.java:37)
+  com.w2cx.selenium.business.InformationManagePro.AddCategory(InformationManagePro.java:55)
+  com.w2cx.selenium.testCase.testLogin.testInformationManage(BaseTest.java:95)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="testLogin" time="11.806" classname="com.w2cx.selenium.testCase.testLogin" />
+      
+</testsuite>

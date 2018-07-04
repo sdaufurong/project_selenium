@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="结果详情"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.762">
+  <properties />
+  
+  
+            <testcase name="testInformationManage" time="10.523" classname="com.w2cx.selenium.testCase.testLogin" />
+                <testcase name="testLogin" time="10.239" classname="com.w2cx.selenium.testCase.testLogin" />
+      
+</testsuite>

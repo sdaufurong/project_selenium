@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="W2CX-WEB自动化测试报告" parallel="methods" thread-count="1">
+  <parameter name="driverName" value="chrome"/>
+  <parameter name="username" value="15110039071"/>
+  <parameter name="password" value="039071"/>
+  <parameter name="code" value="1234"/>
+  <parameter name="searchCategoryName" value="美食"/>
+  <parameter name="addCategoryName" value="qq"/>
+  <parameter name="searchInformationTitle" value="北京"/>
+  <parameter name="informationTitle" value="资讯（草稿）013"/>
+  <parameter name="informationTitleReview" value="资讯（审核）013"/>
+
+  <test name="我爱出行管理中心V1.0_Chrome浏览器" preserve-order="true">
+    <classes>
+      <!--class name="com.w2cx.selenium.testCase.testLogin"/-->
+      <!--class name="com.w2cx.selenium.testCase.testInformationManage"/-->
+      <class name="com.w2cx.selenium.testCase.testInformationContent"/>
+    </classes>
+  </test>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.w2cx.selenium.util.TestNGListener"/>
+  </listeners>
+</suite>

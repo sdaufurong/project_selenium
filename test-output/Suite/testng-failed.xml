@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="W2CX_TEST(failed)">
+    <classes>
+      <class name="com.w2cx.selenium.testCase.testLogin">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.w2cx.selenium.testCase.testLogin -->
+    </classes>
+  </test> <!-- W2CX_TEST(failed) -->
+</suite> <!-- Failed suite [Suite] -->

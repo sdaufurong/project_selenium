@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="W2CX自动化测试报告" duration-ms="36070" started-at="2018-06-15T10:02:34Z" finished-at="2018-06-15T10:03:10Z">
+    <groups>
+    </groups>
+    <test name="结果详情" duration-ms="36070" started-at="2018-06-15T10:02:34Z" finished-at="2018-06-15T10:03:10Z">
+      <class name="com.w2cx.selenium.testCase.testLogin">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.w2cx.selenium.testCase.testLogin@7f560810]" name="initDriver" is-config="true" duration-ms="2821" started-at="2018-06-15T18:02:34Z" finished-at="2018-06-15T18:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.w2cx.selenium.testCase.testLogin@7f560810]" name="testLogin" duration-ms="12584" started-at="2018-06-15T18:02:37Z" finished-at="2018-06-15T18:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testInformationManage()[pri:0, instance:com.w2cx.selenium.testCase.testLogin@7f560810]" name="testInformationManage" duration-ms="10552" started-at="2018-06-15T18:02:54Z" depends-on-methods="com.w2cx.selenium.testCase.testLogin.testLogin" finished-at="2018-06-15T18:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInformationManage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.w2cx.selenium.testCase.testLogin@7f560810]" name="closeDriver" is-config="true" duration-ms="77" started-at="2018-06-15T18:03:10Z" finished-at="2018-06-15T18:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.w2cx.selenium.testCase.testLogin -->
+    </test> <!-- 结果详情 -->
+  </suite> <!-- W2CX自动化测试报告 -->
+</testng-results>

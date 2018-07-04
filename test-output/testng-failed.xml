@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [W2CX自动化测试报告]" parallel="methods">
+  <listeners>
+    <listener class-name="com.w2cx.selenium.util.TestNGListener"/>
+  </listeners>
+  <test name="结果详情(failed)" parallel="methods">
+    <classes>
+      <class name="com.w2cx.selenium.testCase.testLogin">
+        <methods>
+          <include name="testLogin"/>
+          <include name="initDriver"/>
+          <include name="testInformationManage"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.w2cx.selenium.testCase.testLogin -->
+    </classes>
+  </test> <!-- 结果详情(failed) -->
+</suite> <!-- Failed suite [W2CX自动化测试报告] -->

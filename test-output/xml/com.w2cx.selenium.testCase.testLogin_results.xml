@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="我爱出行管理中心V1.0_Chrome浏览器"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.360">
+  <properties />
+  
+  
+            <testcase name="testLogin" time="13.360" classname="com.w2cx.selenium.testCase.testLogin" />
+      
+</testsuite>
